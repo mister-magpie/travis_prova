@@ -3,6 +3,8 @@ language: python
 env: 
         global:
                 - SAY_MY_NAME=Heisenberg
+                -   secure: "kbIsl2Un7igeboRPu7bC2NnbCkjro0xrzZAkKCekuLx8c/Vw+V1TM8oo5suLwCdd8IDWL+aL0PuCBkB0hO4RWSCn3pGXlY5YE5UbDUb2wXxPEqeIDM50J0va6+HP6NhkWz0Y/p7zmBIm0IBNUscz8gRmxv7sVZR+BZYlAuEdJMUBWHbTUqUMRvmPx68rcsL5um/u2ECOz23LRyUiikwEmfbGmMGQCPQdijQALQoYvL82bRdF7YUMftdGZbZbAseyJLwkJrle+ygyibNKNNdA4eFwk71qooK/ZCEI2NWSb8c6VtCDt2cYW6rZLEAo4FdbdHaKbOHugQur4oWZOoEqGMqUlodfuaYyq4YOMWVeD0oYvZMDxVzZU9Ho9Le0DqFh+ytLr60qpt2UaMoZf9ZiWouwP/DP6nXTk1fFFKyCqbM7tol9YQV70KROG80bnzt/7QF9a3nq16uAlMZkj1IY2uC8S8AGSFeur2cw3p/g1bVuoPwHS9gGmjdaqTcboATeE6GJeNusNbakO1q+aN3+fZgpxm4O4A8zTa/tor/caPW2eZLVq3Wr6rH1BSkiZzWoOU0VdczWy7+BGW2vl7gmdO7dr8vwX4IAfrppQkaZsDcrvMaYHs17/0I61j/1iYMgBfImUekpq9Vkxtr83IVhMgLbIdY34qSpCpg3gnMo9Mo="
+
 script: 
         - python test.py
         - echo $SAY_MY_NAME
