@@ -1,3 +1,8 @@
 language: python
 
-script: "python test.py"
+env: 
+        global:
+                - SAY_MY_NAME=Heisenberg
+script: 
+        - python test.py
+        - echo $SAY_MY_NAME
